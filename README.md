@@ -1,1 +1,1 @@
-# zavyalov.github.io
+# Simple scripts
