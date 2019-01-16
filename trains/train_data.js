@@ -102,7 +102,7 @@ function train_data() {
 	{	"name"		: "hr" },
 	{
 		"name"		: "Один",
-		"max_speed"	: 130,
+		"max_speed"	: 140,
 		"acceleration"	: 10,
 		"max_load"	: 6,
 		"epoch"		: 3,
