@@ -3,6 +3,23 @@ function train_data() {
     return {
 "trains" : [
 	{
+		"name"		: "Плутон",
+		"max_speed"	: 115,
+		"acceleration"	: 3,
+		"max_load"	: 1750,
+		"epoch"		: 6,
+		"slots"		: 5
+	},
+	{
+		"name"		: "Минерва",
+		"max_speed"	: 190,
+		"acceleration"	: 18,
+		"max_load"	: 205,
+		"epoch"		: 6,
+		"slots"		: 1
+	},
+	{	"name"		: "hr" },
+	{
 		"name"		: "Ласточка",
 		"max_speed"	: 60,
 		"acceleration"	: 18,
