@@ -3,19 +3,19 @@ function train_data() {
     return {
 "trains" : [
 	{
-		"name"		: "Плутон",
-		"max_speed"	: 115,
-		"acceleration"	: 3,
-		"max_load"	: 1750,
-		"epoch"		: 6,
-		"slots"		: 5
+		"name"		: "Карьерник",
+		"max_speed"	: 70,
+		"acceleration"	: 4,
+		"max_load"	: 7,
+		"epoch"		: 3,
+		"slots"		: 1
 	},
 	{
-		"name"		: "Минерва",
-		"max_speed"	: 190,
-		"acceleration"	: 18,
-		"max_load"	: 205,
-		"epoch"		: 6,
+		"name"		: "Коршун",
+		"max_speed"	: 110,
+		"acceleration"	: 10,
+		"max_load"	: 6,
+		"epoch"		: 1,
 		"slots"		: 1
 	},
 	{	"name"		: "hr" },
@@ -67,7 +67,7 @@ function train_data() {
 		"epoch"		: 1,
 		"slots"		: 1
 	},
-
+	
 	{	"name"		: "hr" },
 	{
 		"name"		: "Летучая мышь",
@@ -117,7 +117,6 @@ function train_data() {
 		"epoch"		: 2,
 		"slots"		: 1
 	},
-
 	{	"name"		: "hr" },
 	{
 		"name"		: "Один",
@@ -167,8 +166,8 @@ function train_data() {
 		"epoch"		: 3,
 		"slots"		: 2
 	},
-
 	{	"name"		: "hr" },
+
 	{
 		"name"		: "Аполлон",
 		"max_speed"	: 85,
@@ -193,6 +192,7 @@ function train_data() {
 		"epoch"		: 4,
 		"slots"		: 1
 	},
+	
 	{
 		"name"		: "Гор",
 		"max_speed"	: 115,
@@ -201,6 +201,7 @@ function train_data() {
 		"epoch"		: 4,
 		"slots"		: 1
 	},
+	
 	{
 		"name"		: "Тор",
 		"max_speed"	: 210,
@@ -209,6 +210,9 @@ function train_data() {
 		"epoch"		: 4,
 		"slots"		: 1
 	},
+
+
+	
 	{
 		"name"		: "Посейдон",
 		"max_speed"	: 170,
@@ -217,8 +221,9 @@ function train_data() {
 		"epoch"		: 4,
 		"slots"		: 3
 	},
-
+	
 	{	"name"		: "hr" },
+	
 	{
 		"name"		: "Единорог",
 		"max_speed"	: 160,
@@ -267,7 +272,7 @@ function train_data() {
 		"epoch"		: 5,
 		"slots"		: 4
 	},
-
+	
 	{	"name"		: "hr" },
 	{
 		"name"		: "Огр",
@@ -317,15 +322,102 @@ function train_data() {
 		"epoch"		: 6,
 		"slots"		: 5
 	},
-
 	{	"name"		: "hr" },
 	{
-		"name"		: "Коршун",
-		"max_speed"	: 110,
-		"acceleration"	: 10,
-		"max_load"	: 6,
+		"name"		: "Кит",
+		"max_speed"	: 95,
+		"acceleration"	: 2,
+		"max_load"	: 55,
 		"epoch"		: 1,
 		"slots"		: 1
+	},
+	{
+		"name"		: "Грейхаунд",
+		"max_speed"	: 190,
+		"acceleration"	: 20,
+		"max_load"	: 45,
+		"epoch"		: 1,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Жираф 2",
+		"max_speed"	: 105,
+		"acceleration"	: 5,
+		"max_load"	: 90,
+		"epoch"		: 2,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Гепард 2",
+		"max_speed"	: 225,
+		"acceleration"	: 14,
+		"max_load"	: 55,
+		"epoch"		: 2,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Аякс 3",
+		"max_speed"	: 175,
+		"acceleration"	: 14,
+		"max_load"	: 90,
+		"epoch"		: 3,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Артемида 3",
+		"max_speed"	: 80,
+		"acceleration"	: 3,
+		"max_load"	: 360,
+		"epoch"		: 3,
+		"slots"		: 2
+	},
+	{
+		"name"		: "Гермес 4",
+		"max_speed"	: 280,
+		"acceleration"	: 16,
+		"max_load"	: 95,
+		"epoch"		: 4,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Гипнос 4",
+		"max_speed"	: 90,
+		"acceleration"	: 2,
+		"max_load"	: 660,
+		"epoch"		: 4,
+		"slots"		: 3
+	},
+	{
+		"name"		: "Атон 5",
+		"max_speed"	: 300,
+		"acceleration"	: 5,
+		"max_load"	: 145,
+		"epoch"		: 5,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Талос 5",
+		"max_speed"	: 120,
+		"acceleration"	: 18,
+		"max_load"	: 880,
+		"epoch"		: 5,
+		"slots"		: 4
+	},
+	{
+		"name"		: "Минерва 6",
+		"max_speed"	: 330,
+		"acceleration"	: 18,
+		"max_load"	: 205,
+		"epoch"		: 6,
+		"slots"		: 1
+	},
+	{
+		"name"		: "Плутон 6",
+		"max_speed"	: 115,
+		"acceleration"	: 3,
+		"max_load"	: 1750,
+		"epoch"		: 6,
+		"slots"		: 5
 	},
 	{	"name"		: "hr" }
 ]
