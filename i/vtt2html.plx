@@ -35,8 +35,8 @@ sub print_text {
             $str =~ s/>//g;
             $str =~ s/line.*//;
             $str =~ s/\.[0-9]+//g;
-            if( $str =~ /^\d+:(\d\d)/ && $1 > $prev_hr ) {
-                say "<hr/><center>$prev_hr minutos</center><hr/>";
+            if( $str =~ /^\d+:(\d\d)/ && $1 >= $prev_hr ) {
+                say "<hr/><center><font size=80px color=red>$prev_hr minutos</font></center><hr/>";
                 $prev_hr += 10;
             }
 
