@@ -4,8 +4,24 @@ function train_data() {
 "trains" : [
 	{
 		"name"		: "Карьерник",
-		"max_speed"	: 70,
+		"max_speed"	: 85,
 		"acceleration"	: 4,
+		"max_load"	: 7,
+		"epoch"		: 3,
+		"slots"		: 1
+	},
+	{
+		"name"		: "КарьерникSpd",
+		"max_speed"	: 90,
+		"acceleration"	: 4,
+		"max_load"	: 7,
+		"epoch"		: 3,
+		"slots"		: 1
+	},
+	{
+		"name"		: "КарьерникAcc",
+		"max_speed"	: 85,
+		"acceleration"	: 6,
 		"max_load"	: 7,
 		"epoch"		: 3,
 		"slots"		: 1
