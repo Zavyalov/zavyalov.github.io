@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
+    <description>
+        <title-info>
+            <book-title>Smart title</book-title>
+        </title-info>
+    </description>
+    <body>
+        <title><p>Free as a freedom book</p></title>
+
+        <section>
+            <title><p>Роковая глава</p></title>
+
+            <cite><p>Видимая цитата.</p></cite>
+            <cite>
+                <p>Бойтесь тегов, невидимость приносящих.<empty-line/>
+                    Вергилий, <emphasis>“Энеида”</emphasis>
+                </p>
+            </cite>
+            <p>Опять читалка зажевала весь абзац,<empty-line/>это просто невыносимо.</p>
+            <p>А это второй абзац.</p>
+        </section>
+    </body>
+</FictionBook>
